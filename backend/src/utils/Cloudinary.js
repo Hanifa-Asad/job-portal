@@ -12,6 +12,8 @@
 
 // export default Cloudinary;
 
+// 
+
 import { v2 as cloudinary } from "cloudinary";
 
 // Configure Cloudinary immediately
@@ -23,6 +25,7 @@ cloudinary.config({
 
 console.log("✅ Cloudinary connected successfully");
 
-// Export the configured Cloudinary instance
+// Export the configured instance
 export default cloudinary;
+
 
