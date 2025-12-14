@@ -13,7 +13,7 @@ const AddJob = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState("Programming");
-  const [location, setLocation] = useState("Dhaka");
+  const [location, setLocation] = useState("karachi");
   const [level, setLevel] = useState("Intermediate");
   const [salary, setSalary] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -45,7 +45,7 @@ const AddJob = () => {
         setTitle("");
         setDescription("");
         setCategory("Programming");
-        setLocation("Dhaka");
+        setLocation("karachi");
         setLevel("Intermediate");
         setSalary(null);
 
@@ -146,14 +146,37 @@ const AddJob = () => {
               onChange={(e) => setLocation(e.target.value)}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
-              <option value="Dhaka">Dhaka</option>
+              {/* <option value="Dhaka">Dhaka</option>
               <option value="Rangpur">Rangpur</option>
               <option value="Barishal">Barishal</option>
               <option value="Khulna">Khulna</option>
               <option value="Mymensingh">Mymensingh</option>
               <option value="Rajshahi">Rajshahi</option>
               <option value="Sylhet">Sylhet</option>
-              <option value="Remote">Remote</option>
+              <option value="Remote">Remote</option> */}
+              <option value="Karachi">Karachi</option>
+<option value="Lahore">Lahore</option>
+<option value="Islamabad">Islamabad</option>
+<option value="Rawalpindi">Rawalpindi</option>
+<option value="Faisalabad">Faisalabad</option>
+<option value="Multan">Multan</option>
+<option value="Gujranwala">Gujranwala</option>
+<option value="Sialkot">Sialkot</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Sukkur">Sukkur</option>
+<option value="Peshawar">Peshawar</option>
+<option value="Quetta">Quetta</option>
+<option value="Abbottabad">Abbottabad</option>
+<option value="Bahawalpur">Bahawalpur</option>
+<option value="Skardu">Skardu</option>
+<option value="Hunza">Hunza</option>
+<option value="Mansehra">Mansehra</option>
+<option value="Gwadar">Gwadar</option>
+<option value="Turbat">Turbat</option>
+<option value="Khuzdar">Khuzdar</option>
+<option value="Chaman">Chaman</option>
+<option value="Remote">Remote</option>
+
             </select>
           </div>
 

@@ -163,7 +163,7 @@ export const testimonials = [
     description:
       "Using this platform made my job search so much easier. The recommendations were spot on and the user experience.",
     image: "https://placehold.co/200x200/2563eb/white?text=JL", // Jessica Lee initials
-    name: "Jessica Lee",
+    name: "iqra Khan",
     position: "Frontend Developer",
   },
   {
@@ -171,7 +171,7 @@ export const testimonials = [
     description:
       "I found the perfect job within a week. The interface is clean and the support team is super responsive. Couldn't ask for more!",
     image: "https://randomuser.me/api/portraits/men/32.jpg", // Daniel Thompson photo
-    name: "Daniel Thompson",
+    name: "rizwan Ali",
     position: "Digital Marketing Manager",
   },
   {
@@ -187,7 +187,7 @@ export const testimonials = [
     description:
       "I've used many job portals before, but this one stands out with its simplicity and effectiveness. Found a great opportunity !",
     image: "https://randomuser.me/api/portraits/men/75.jpg", // Kevin Brooks photo
-    name: "Kevin Brooks",
+    name: "ADEEL KHAN",
     position: "Software Engineer",
   },
 ];
@@ -203,16 +203,28 @@ export const JobCategories = [
 ];
 
 export const JobLocations = [
-  "Dhaka",
-  "Chattogram",
-  "Khulna",
-  "Rajshahi",
-  "Barishal",
-  "Sylhet",
-  "Rangpur",
-  "Mymensingh",
-  "Remote",
+   "Karachi",
+  "Lahore",
+  "Islamabad",
+  "Rawalpindi",
+  "Faisalabad",
+  "Multan",
+  "Gujranwala",
+  "Sialkot",
+  "Hyderabad",
+  "Sukkur",
+  "Peshawar",
+  "Quetta",
+  "Abbottabad",
+  "Gilgit",
+  "Skardu",
+  "Gwadar",
+  "Remote (Pakistan)",
+  "Hybrid (Pakistan)"
+  
+
 ];
+
 
 // Sample data for Manage Jobs Page
 export const manageJobsData = [
