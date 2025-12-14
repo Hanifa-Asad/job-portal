@@ -36,7 +36,7 @@ import connectDB from "./src/db/connectDB.js";
 import userRoutes from "./src/routes/userRoutes.js";
 import companyRoutes from "./src/routes/companyRoutes.js";
 import jobRoutes from "./src/routes/jobRoutes.js";
-import cloudinary from "./src/utils/cloudinary.js"; // ✅ correct import
+import cloudinary from "./src/utils/cloudinary.js"; 
 
 const app = express();
 
